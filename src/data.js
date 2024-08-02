@@ -1,7 +1,7 @@
 const menu = [
   {
     id: 1,
-    title: 'buttermilk pancakes',
+    title: 'buttermilk pancake',
     category: 'breakfast',
     price: 15.99,
     img: '/images/item-1.jpeg',
