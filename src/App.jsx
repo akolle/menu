@@ -1,4 +1,18 @@
+import { useState } from 'react'
+import Title from './assets/Title'
+import menu from './data'
+import Menu from './Menu'
+
 const App = () => {
-  return <h2>Menu Starter</h2>;
-};
-export default App;
+  const [menuItems, setMenuItems] = useState(menu)
+
+  return (
+    <main>
+      <section className="menu">
+        <Title text="our menu" />
+        <Menu items={menuItems} />
+      </section>
+    </main>
+  )
+}
+export default App
